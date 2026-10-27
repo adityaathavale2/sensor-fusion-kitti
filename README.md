@@ -162,7 +162,7 @@ The pipeline is well suited to studying calibration-error effects on fusion qual
 ---
 
 ## 6. Repository Structure
-
+```
 sensor-fusion-kitti/
 ├── README.md
 ├── LICENSE
@@ -178,6 +178,7 @@ sensor-fusion-kitti/
 └── results/ # generated outputs
 ├── fused_<frame_id>.png
 └── metrics_<frame_id>.txt
+```
 
 
 Each frame is identified by a 6-digit ID (e.g. `006037`) shared across all four KITTI data folders.
